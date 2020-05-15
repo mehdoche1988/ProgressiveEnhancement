@@ -1,23 +1,36 @@
+/*header*/
+header{
+  background:#BBB;
+  position:inherit;
+  margin-left: 15Px;
+  bottom:0;
+  width:95%;
+  height:105%;
+  }
+/*list*/
 ul {
    list-style-type: none;
 }
 li:before {
    content: '- ';
 }
+/*IMAGE*/
 img{
   max-width: 20%;
 }
+/*paragraph*/
 p{
   text-align: justify;
 }
 
 /*table*/
 table {
-  table-layout: fixed;
+  table-layout: auto;
   width: 55%;
   border-collapse: collapse;
   border: 3px solid #764532;
   font-family: Arial;
+  margin-left: 20%;
 
 }
 thead th:nth-child(1) {
@@ -60,3 +73,16 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-color: #e495e4;
 }
+
+/*footer*/
+
+footer{
+  background:#ccc;
+  position:inherit;
+  bottom:0;
+  width:95%;
+  padding-top:30px;
+  height:50px;
+  margin-top: 20px;
+  margin-left: 25Px;
+  }
